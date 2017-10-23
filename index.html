@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='custom.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+         <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Maps</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <form class="navbar-form navbar-left">
+                <div class="form-group">
+                 <input id = "search-input" type="text" class="form-control" placeholder="Search..">
+                </div>
+             </form>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+        <div class="container-map">
+
+            <div class="row">
+
+                <div class="col-lg-12 nopadding">
+                    <div id="map"></div>
+                    <div class="container-fluid">
+                        <div id="left-panel">
+                            <h2>Results</h2>
+                            <ul id="places"></ul>
+                    </div>
+
+                </div>
+
+
+            </div> <!-- /.row-->
+
+        </div> <!-- /.container-->
+
+        
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <script src="bundle3.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUB6zkc77zKMANGhaEOpK-s3k6xSnAzZ8&libraries=places&callback=initMap"></script>
+
+    </body>
+</html>

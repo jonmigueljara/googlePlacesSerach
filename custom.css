@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+}
+html {
+
+}
+
+
+
+h1{
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 40px;
+}
+.container-map {
+	width:100%;
+	height: 100%;
+	position:absolute;
+	margin-top: 52px
+	top:0;
+
+}
+
+#map {
+    width: 100%; height: 100%
+}
+
+.info-window {
+    font-family: 'Montserrat', sans-serif;
+}
+.info-content {
+    color: #999;
+}
+
+
+
+
+#left-panel {
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+#left-panel select, #left-panel input {
+    font-size: 15px;
+ }
+
+#left-panel select {
+	width: 100%;
+}
+
+#left-panel i {
+	font-size: 12px;
+}
+#left-panel {
+	position: absolute;
+	margin-top: -20%;
+	top: 60%;
+	margin-left: 30px;
+	height: 80%;
+	width: 250px;
+	padding: 5px;
+	z-index: 5;
+	border: 1px solid #999;
+	background: #fff;
+}
+
+#places {
+	height: inherit;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 80%
+    width: 200px;
+    overflow-y: scroll;
+  }
+  #places li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #places li:nth-child(odd) {
+    background-color: #fcfcfc;
+  }
+  #more {
+    width: 100%;
+    margin: 5px 0 0 0;
+  }
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
