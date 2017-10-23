@@ -23,9 +23,14 @@ load up index.html with the accompanying files: bundle3.js, custom.css and you a
 
 *used browserify to package up the npm packages that used and deploy it on the server
 
-*used bootstrap nav bar and fluid containers
+*used Bootstrap nav bar and fluid containers
 
 
 
+## SreenShots
 
+<table id="characterTable">
 
+<tr>
+<td id = "first"> <img src="img/screenie.png" alt="" height="400"/> </td>
+</tr>
